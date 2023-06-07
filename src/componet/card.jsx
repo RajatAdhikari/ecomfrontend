@@ -22,7 +22,7 @@ export default function Card(props) {
         console.log(prod_id);
         console.log(cookie.length);
         if(cookie.length === 1){
-            window.location.href = "https://grocery-shop-mobashir.netlify.app/loginsignup";
+            window.location.href = "https://prismatic-dango-0745ba.netlify.app/loginsignup";
             return;
         }
         const token = cookie[1];
